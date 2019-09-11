@@ -12,7 +12,6 @@ public class Calculator {
         System.out.println(num1 + "-" + num2 + "=" + decreases);
         int multiplication = num1 * num2;
         System.out.println(num1 + "*" + num2 + "=" + multiplication);
-
         return addition;
     }
 }

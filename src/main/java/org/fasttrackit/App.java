@@ -2,8 +2,8 @@ package org.fasttrackit;
 
 import java.util.Scanner;
 
-public class App{
-    public static void main(String[] args){
+public class App {
+    public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in);
@@ -16,7 +16,5 @@ public class App{
         System.out.println("These are your results:");
         calculator.addition(calculator.num1, calculator.num2);
         System.out.println("Goodbye " + calculator.unserName);
-
     }
-
 }
